@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharePost</title>
+    <!-- Google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- For font-awesome icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="../tailwind/public/style.css">
+    <!-- For personal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <!--Nav bar  -->
+    <nav >
+        <div class="Navbar mt-1">
+            <div class="Nav__items  grid grid-flow-col grid-cols-3 gap-2 ">
+                <div class="Nav__logo  Nav__item w-max flex ml-2"><i class="fa fa-anchor"></i></div>
+                <div class="Nav__search Nav__item w-max "><input type="search" placeholder="Search" class="rounded focus:border-green-400 focus:outline-none  focus:ring "><i class="fa fa-search ml-2"></i></div>
+                <div class="Nav__icon flex Nav__item">
+                    <!-- <div class="Nav__icon_item  flex m-auto"><button><i class="fa fa-home"></i></button></div> -->
+                    <div class="Nav__icon_item  flex m-auto"><button><i class="material-icons">home</i></button></div>
+                    <!-- <div class="Nav__icon_item  flex m-auto"><button><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg></button></div> -->
+                    <div class="Nav__icon_item  flex m-auto"><button><i class="fa fa-plus-square-o"></i></button></div>
+                    <div class="Nav__icon_item flex m-auto"><button><i class="fa fa-bell-o"></i></button></div>
+                    <div class="Nav__icon_item flex m-auto"><button><i class="fa fa-user-o"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr class="mt-1 border-b-0 border-blue-200">
+
+    <!-- Main content -->
+    <div class=" Main__content_out sm\:container sm\:m-auto m-1">
+       <div class="Main__contents   border-1 border-gray-400 rounded-lg m-auto ">
+            <div class="Main__icon flex ">
+                <div class="Main__User__Profile w-7 border-gray-900 flex m-auto ">
+                    <img src="businessman.png"  alt="">
+                    <!-- <i class="fa fa-user-circle-o" style="border: 1px solid red;"></i> -->
+                </div > 
+                <div class="Main__User__Contain  w-11/12">
+                    <div class="Main__User__Name text-sm font-semibold">Meshv Patel</div> <hr class="m-0 w-1/5">
+                    <div class="Main__User__Place text-sm">Canada</div>
+                </div>
+                <div class="Main__User__Option w-11 p-2">
+                    <button><i class="fa fa-ellipsis-v"></i></button>
+                </div>
+            </div> <hr class="m-0">
+            <!-- Picture Part -->
+            <div class="Main__data ">
+                <img src="https://source.unsplash.com/user/erondu/1500x600" alt="">
+            </div> <hr id="hr1">
+            <!-- Comment Part -->
+            <div class="Main__comment h-20">
+                <div class="Main__Comment__Part grid ">
+                    <div class="Main__Like"><button class="text-xl"><i class="fa fa-heart-o"></i></button></div>                    
+                    <div class="Main__Comment"><button class="text-xl"><i class="fa fa-comment-o"></i></button></div>                    
+                    <div class="Main__Share"><button class="text-xl"><i class="fa fa-share"></i></button></div>
+                    <div class="Main__Save"></div>                  
+                </div>
+                <div class="Main__Comment_All">
+                    this is comment part.
+                </div>
+                <div class="Emoji"><i class="fa fa-empire"></i> 
+                    <input type="text" class="border-0" name="" placeholder="Comment...">
+                </div>
+            </div>
+       </div> 
+
+    </div>
+
+    <!-- Second Part -->
+    <div class=" Main__content_out sm\:container sm\:m-auto m-1">
+       <div class="Main__contents   border-1 border-gray-400 rounded-lg m-auto ">
+            <div class="Main__icon flex ">
+                <div class="Main__User__Profile w-7 border-gray-900 flex m-auto ">
+                    <i class="fa fa-user-circle-o" style="border: 1px solid red;"></i>
+                </div > 
+                <div class="Main__User__Contain  w-11/12">
+                    <div class="Main__User__Name text-sm font-semibold">Meshv Patel</div> <hr class="m-0 w-1/5">
+                    <div class="Main__User__Place text-sm">Canada</div>
+                </div>
+                <div class="Main__User__Option w-11 p-2">
+                    <button><i class="fa fa-ellipsis-v"></i></button>
+                </div>
+            </div> <hr class="m-0">
+            <!-- Picture Part -->
+            <div class="Main__data ">
+                <img src="https://source.unsplash.com/user/erondu/1500x600" alt="">
+            </div> <hr id="hr1">
+            <!-- Comment Part -->
+            <div class="Main__comment h-20">
+                <div class="Main__Comment__Part grid ">
+                    <div class="Main__Like"><button class="text-xl"><i class="fa fa-heart-o"></i></button></div>                    
+                    <div class="Main__Comment"><button class="text-xl"><i class="fa fa-comment-o"></i></button></div>                    
+                    <div class="Main__Share"><button class="text-xl"><i class="fa fa-share"></i></button></div>
+                    <div class="Main__Save"></div>                  
+                </div>
+                <div class="Main__Comment_All">
+                    this is comment part.
+                </div>
+                <div class="Emoji"><i class="fa fa-empire"></i> 
+                    <input type="text" class="border-0" name="" placeholder="Comment...">
+                </div>
+            </div>
+       </div> 
+
+    </div>
+
+
+    <div class=" Main__content_out sm\:container sm\:m-auto m-1">
+       <div class="Main__contents   border-1 border-gray-400 rounded-lg m-auto ">
+            <div class="Main__icon flex ">
+                <div class="Main__User__Profile w-7 border-gray-900 flex m-auto ">
+                    <i class="fa fa-user-circle-o" style="border: 1px solid red;"></i>
+                </div > 
+                <div class="Main__User__Contain  w-11/12">
+                    <div class="Main__User__Name text-sm font-semibold">Meshv Patel</div> <hr class="m-0 w-1/5">
+                    <div class="Main__User__Place text-sm">Canada</div>
+                </div>
+                <div class="Main__User__Option w-11 p-2">
+                    <button><i class="fa fa-ellipsis-v"></i></button>
+                </div>
+            </div> <hr class="m-0">
+            <!-- Picture Part -->
+            <div class="Main__data ">
+                <img src="https://cdn.pixabay.com/photo/2021/08/04/21/26/ocean-6522657_960_720.jpg" alt="">
+            </div> <hr id="hr1">
+            <!-- Comment Part -->
+            <div class="Main__comment h-20">
+                <div class="Main__Comment__Part grid ">
+                    <div class="Main__Like"><button class="text-xl"><i class="fa fa-heart-o"></i></button></div>                    
+                    <div class="Main__Comment"><button class="text-xl"><i class="fa fa-comment-o"></i></button></div>                    
+                    <div class="Main__Share"><button class="text-xl"><i class="fa fa-share"></i></button></div>
+                    <div class="Main__Save"></div>                  
+                </div>
+                <div class="Main__Comment_All">
+                    this is comment part.
+                </div>
+                <div class="Emoji"><i class="fa fa-empire"></i> 
+                    <input type="text" class="border-0" name="" placeholder="Comment...">
+                </div>
+            </div>
+       </div> 
+
+    </div>
+
+
+    <div class=" Main__content_out sm\:container sm\:m-auto 0">
+       <div class="Main__contents   border-1 border-gray-400 rounded-lg m-auto ">
+            <div class="Main__icon flex ">
+                <div class="Main__User__Profile w-7 border-gray-900 flex m-auto ">
+                    <i class="fa fa-user-circle-o" style="border: 1px solid red;"></i>
+                </div > 
+                <div class="Main__User__Contain  w-11/12">
+                    <div class="Main__User__Name text-sm font-semibold">Meshv Patel</div> <hr class="m-0 w-1/5">
+                    <div class="Main__User__Place text-sm">Canada</div>
+                </div>
+                <div class="Main__User__Option w-11 p-2">
+                    <button><i class="fa fa-ellipsis-v"></i></button>
+                </div>
+            </div> <hr class="m-0">
+            <!-- Picture Part -->
+            <div class="Main__data ">
+                <img src="https://cdn.pixabay.com/photo/2021/08/03/07/02/bee-6518669_960_720.jpg" alt="">
+            </div> <hr id="hr1">
+            <!-- Comment Part -->
+            <div class="Main__comment h-20">
+                <div class="Main__Comment__Part grid ">
+                    <div class="Main__Like"><button class="text-xl"><i class="fa fa-heart-o"></i></button></div>                    
+                    <div class="Main__Comment"><button class="text-xl"><i class="fa fa-comment-o"></i></button></div>                    
+                    <div class="Main__Share"><button class="text-xl"><i class="fa fa-share"></i></button></div>
+                    <div class="Main__Save"></div>                  
+                </div>
+                <div class="Main__Comment_All">
+                    this is comment part.
+                </div>
+                <div class="Emoji"><i class="fa fa-empire"></i> 
+                    <input type="text" class="border-0" name="" placeholder="Comment...">
+                </div>
+            </div>
+       </div> 
+
+    </div>
+
+
+
+    <!-- Footer -->
+</body>
+</html>

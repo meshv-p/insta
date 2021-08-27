@@ -1,0 +1,59 @@
+/* First nav bar */
+input{
+    border: 1px solid black;
+}
+/* 
+.Nav__items{
+    border: 1px solid red;
+}*/
+/* .Nav__item{
+    border: 2px solid green;
+
+} 
+.Nav__icon_item{
+    border: 1px solid  black ;
+
+} */
+.material-icons{
+    font-size: 20px;
+    display: flex;
+}
+
+
+
+
+/* Main content  */
+.Main__content_out{
+    height: 50%;
+}
+/* in Main User Profile */
+.Main__contents{
+    width:78%;
+}
+.Main__User__Profile{
+    font-size: 25px;
+}
+.Main__User__Profile img{
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.fa-user-circle-o {
+    border: 3x solid red;
+    border-radius: 50%;
+}
+
+#hr1{
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+/* for like, comment bar */
+.Main__comment{
+    margin-left: 10px;
+}
+.Main__Comment__Part{
+    grid-template-columns: repeat(3,70px);
+}
+
+
+
+/* Footer */
